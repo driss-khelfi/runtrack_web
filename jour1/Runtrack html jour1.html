@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td {
+          border:1px solid black;
+          color: black;
+        }
+        h1{
+            font-family: arial;
+            font-size: 24px;
+            color: darkblue;
+        }
+        h2{
+            font-family: arial;
+            font-size: 20px;
+            color: blue;
+        }
+        p{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 16px;
+            color: black;
+        }
+        body{
+            background-color: lightblue;
+        }
+        img{
+           margin-left: 200px;
+            
+        }
+        </style>
+    
+    <head>
+        <title>Runtrack html</title>
+        <div id="haut_de_page"></div>
+    </head>
+    <body>
+        <header>
+            <nav>Nav</nav>
+        </header>
+        <main>
+
+            <article>Article</article>
+
+        </main>
+
+        <article> 
+
+            <section>Section</section>
+
+        </article>
+       
+        <aside>Aside</aside>
+        <h1>Job01</h1>
+        <h2><h1>Pourquoi les balises "title" et "meta" sont-elles essentielles pour le SEO ?!</h1></h2>
+        <p>En HTML, le doctype est le préambule "!DOCTYPE html" requis en haut de tous les documents. 
+            Son seul but est d'empêcher un navigateur de passer en soi-disant "quirks mode" lors du rendu d'un document ;
+            c'est-à-dire que le doctype "!DOCTYPE html" garantit que le navigateur fait de son mieux 
+            pour suivre les spécifications pertinentes, plutôt que d'utiliser un mode de rendu différent 
+            incompatible avec certaines spécifications. (Source Mozilla Developer)</p>
+            <h2>Quel impact ont-elles sur la perception d'un moteur de recherche vis-à-vis de votre site ?</h2>
+            <p>Les balises titre sont les balises principales. 
+                Vous devez leur apporter beaucoup d’attention. Elles ont un réel impact sur votre SEO et le positionnement 
+                de vos pages. De plus, elles sont les seules balises à être visibles par vos visiteurs, en haut de votre navigateur.
+                Il est donc nécessaire de les remplir de la bonne façon. Elles ont le bénéfice de décrire précisément 
+                le sujet de votre page.<br>
+                La meta description est une donnée importante à insérer dans votre HTML. 
+                Elle décrit aux moteurs de recherche en une courte description le sujet de votre page. 
+                Cette méta va plus loin que la balise titre en proposant d’avantage de contenu à vos visiteurs dans les SERP. 
+                Même si Google a démontré que les mots-clés renseignés dans cette description ne sont pas facteurs de positionnement,
+                ils peuvent inciter vos visiteurs à cliquer sur votre site à travers les SERP si ces mots-clés sont pertinents. 
+                La meta description n’est donc pas importante pour ces mots-clés mais pour son sens dans son entièreté.(Source: Oncrawl)</p>
+                <h2>Quel est le rôle de la déclaration DOCTYPE en HTML ?</h2>
+
+<p>La déclaration "!DOCTYPE" définit la version de HTML, qui est utilisée dans ce document.
+    L'annonce de la version est une condition préalable, car le navigateur doit comprendre comment interpréter 
+    la page. Si la déclaration n'est pas disponible, le navigateur peut ne pas afficher le contenu de la page Web
+    correctement.
+
+    La déclaration "!DOCTYPE" est indiqué avant le tag "html". La déclaration n'est pas sensible à la casse. (Source W3docs)</p>
+        <h1>Job02</h1>
+        <h2>Pourquoi est-il important d'utiliser des balises sémantiques en HTML ?</h2>
+        <p>Les balises sémantiques permettent de renseigner les robots des moteurs de recherche quant 
+           à l’importance et la nature des éléments d’une page. Ce sont des éléments de code qui
+          permettent de structurer une page pour la rendre claire et lisible aux yeux de Google</p>
+
+          <h2>En quoi cela améliore-t-il le référencement et l'accessibilité ?</h2>
+          <p>Ces balises sémantiques viennent structurer et hiérarchiser le contenu d’une page.
+             Ainsi, elles permettent aux robots des moteurs de recherche de comprendre rapidement 
+             le sujet dont traite cette page, ainsi que sa structure. 
+             L’indexation des pages dont le code est structuré autour de ces balises est donc favorisée, 
+             et leur positionnement amélioré. Cela explique pourquoi le balisage sémantique occupe une place 
+             non négligeable dans la stratégie SEO d’un site web.</p>
+
+        <h1>Job03</h1>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            
+
+            <input type="radio" id="radio" name="fav_language" value="I clicked on a radio button">
+            <label for="I clicked on a radio button">I'm over 18</label>
+
+        <input type="radio" id="radio2" name="fav_language" value="I clicked on a radio button">
+            <label for="I clicked on a radio button">I'm under 18</label>
+
+  <br>  
+    <input type="checkbox" id="check1" name="choice1" value="Apple">
+    <label for="check1"> Apple</label><br>
+    <input type="checkbox" id="check2" name="choice2" value="Banana">
+    <label for="check2"> Banana</label><br>
+    <input type="checkbox" id="check3" name="choice1" value="Cherry">
+    <label for="check3"> Cherry</label><br><br>
+ <br>
+    <input type="submit" value="Submit">
+
+    <h2>Comment les attributs name des champs de formulaire sont-ils utilisés lors de la
+        soumission d'un formulaire ?</h2>
+      <p>Les attributs "name" dans les champs de formulaire HTML servent à identifier les données saisies
+         par l'utilisateur. Lorsque le formulaire est soumis, ces noms sont utilisés pour transmettre les
+         données au serveur. Le serveur peut ensuite les récupérer en utilisant ces noms pour un traitement
+         ultérieur, comme la validation ou l'enregistrement dans une base de données. 
+         En résumé, les attributs "name" sont des étiquettes qui lient les données aux champs et permettent
+         leur traitement côté serveur lors de la soumission du formulaire.</p>
+          </form> 
+        <p></p>
+        <h1>Job04</h1>
+        <h2>Pourquoi est-il crucial d'ajouter un attribut alt à vos images ?</h2>
+        <img src="https://images.pexels.com/photos/730981/pexels-photo-730981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="800" height="400"  alt="peinture représentant un paysage montagnard">
+        <p>La fonction première de l’attribut alt est de permettre aux personnes malvoyantes de savoir 
+            à quoi correspond votre image. 
+            C’est, en effet, cette expression qui va être lue par les logiciels de lecture d’écran.
+
+            Cet attribut présente également une utilité pour l’ensemble des internautes. C’est encore cette expression qui apparaîtra si le navigateur web de l’internaute n’arrive pas à charger votre image ou si votre site est trop lent.</p>
+            (Source: Viaprestige-agency.com)
+        
+        <video src="C:\Users\dkhel\runtrack_web\jour1\video oiseau (1080p).mp4" alt="défilement d'oiseaux au coucher du soleil" width="800" height="450" controls autoplay></video>
+       <h2>Comment cela influence-t-il l'accessibilité et le SEO de votre site ?</h2>
+       
+        <p>Utiliser l’attribut alt est aussi une façon de positionner son image dans les résultats de Google Images.
+          Or il ne faut pas sous-estimer le trafic généré par cet outil. 
+          Les internautes ne se contentent plus de la recherche basique et n’hésitent pas à chercher du contenu 
+          au sein de Google Images.
+          (Source: Viaprestige-agency.com)</p>
+        <p></p>
+        <h1>Job05</h1>
+         <table>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email</th>
+            </tr>
+            <tr>
+              <td>James</td>
+              <td>Smith</td>
+              <td>james_smith@mail.com</td>
+            </tr>
+            <tr>
+              <td>Diana</td>
+              <td>Williams</td>
+              <td>dianawilliams1998@mail.com</td>
+            </tr>
+            <tr>
+                <td>Mohamed</td>
+                <td>Ali</td>
+                <td>m-ali2004@mail.com</td>
+              </tr>
+              <tr>
+                <td>Jessica</td>
+                <td>Young</td>
+                <td>jessicayoung1@mail.com</td>
+              </tr>
+          </table>
+        <h1>Job06</h1>
+        <h2>Mes liens</21>
+        <p><a href="https://driss-khelfi.students-laplateforme.io/portfolio/">Mon Portfolio!</a>
+            <br>
+            <a href="Job04.html">Lien vers la page</a></p>
+            <h2>Quelle est l'importance des liens internes pour le SEO ?</h2>
+            <p>Le lien interne relie une page d’un site avec une autre page du même site ; 
+                il favorise la navigation des internautes sur le site mais aussi des robots de Google !
+                (Source: anthedesign.fr)</p>
+
+                <h2>Comment influencent-ils le parcours de l'utilisateur ?</h2>
+                <p>La création de liens internes offre la possibilité aux internautes de passer d’une page à une autre page
+                     traitant de sujets complémentaires.
+
+                    Ceux-ci peuvent alors découvrir votre site en profondeur et accéder à des informations disponibles
+                     sur d’autres pages du site. Les visiteurs apprécient particulièrement cela puisqu’il leur facilite
+                      la recherche et leur fait gagner du temps. (Source: anthedesign.fr)</p>
+
+                      <h2>Comment différenciez-vous un lien interne d'un lien externe ?</h2>
+                      <p>Un lien interne c’est quand vous faites un lien sur votre site vers une page interne de votre site.
+                         Donc c’est un lien sur votre site vers votre site. Un lien externe, c’est quand vous avez un lien
+                          depuis un site extérieur au vote qui fait un lien vers votre site. (Source: referenseo.com)</p>
+        <h1>Job07</h1>
+        <h1>Liste non ordonnée</h1>
+       
+        <p><ul>
+            <li>Oeufs</li>
+            <li>Farine</li>
+            <li>Lait</li>
+            <li>Sucre</li>
+            <li>Garniture au choix (Chantilly, crème, vermicelles...)</li>
+          </ul></p>
+
+          <h1>Liste ordonnée</h1>
+          <p>
+            <ol>
+                <li>Mettre 200g de farine dans le saladier</li>
+                <li>Casser 3 oeufs et les verser dans le saladier</li>
+                <li>Rajouter 250ml de lait et mélanger le contenu du saladier avec un batteur</li>
+                <li>Verser 50g de sucre puis mélanger</li>
+                <li>Laisser reposer une heure</li>
+                <li>Préchauffer le four à 250°C</li>
+                <li>Verser le contenu du saladier dans plat et laisser au four pendant 50 minutes</li>
+                <li>Laisser refroidir et décorer selon vos envies (Chantilly, vermicelles pour gâteau...)</li>
+              </ol>
+
+              <p>La liste ordonnée permet de spécifier un classement par étapes, la numérotation est alors automatique.</p>
+              
+          </p>
+        <h1>Job08</h1>
+        <h2>Les balises</h2>
+        <p><strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, 
+         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<code>Hello()</code> <br>
+        Ut enim ad <abbr title="minim">min</abbr> veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat. 
+        <blockquote cite="https://loremipsum.io/">Duis aute irure dolor in reprehenderit 
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </blockquote>
+        
+        <em>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+            deserunt mollit anim id est laborum.</em></p>
+
+        <h2>Quelle est la différence entre les balises strong et b en termes de sémantique ?</h2>
+        <p>La balise strong ou "fort" en français est une balise HTML sémantique, c'est à dire qu'elle a pour fonction de signifier que le contenu qui s'y trouve est de "haute importance" pour le sens du texte. Par défaut cette balise met en caractère gras les lettres qui y sont contenus.
+
+            La balise b pour bold est une balise de style, qui met en gras les mots ou lettre qu'elle encadre. (Source: primaweb.fr)</p>
+    </body>
+        <h1>Job09</h1>
+        <h2>Pourquoi est-il bon de mettre des commentaires dans votre code ?
+            Faut-il en mettre tout le temps ?</h2>
+        <p>Les commentaires dans le code HTML servent à expliquer le code,
+            à faciliter la collaboration et à simplifier la maintenance.
+            Ils devraient être utilisés pour clarifier le code complexe, 
+            tout en évitant les commentaires excessifs qui pourraient le rendre confus.
+            La clarté et la concision sont importantes lors de la rédaction des commentaires.</p>
+        <!-- Les commentaires dans le code HTML sont précieux pour expliquer
+             le fonctionnement du code, faciliter la collaboration entre développeurs 
+             et simplifier la maintenance. Ils sont particulièrement utiles pour clarifier 
+             des parties complexes du code ou pour aider au débogage. 
+             Cependant, il est judicieux de ne pas surcommenter les éléments évidents, 
+             ce qui pourrait compliquer la lecture du code. 
+             L'essentiel est d'utiliser des commentaires lorsque cela est vraiment nécessaire,
+            tout en privilégiant la clarté et la concision dans leur rédaction. -->
+        <h1>Job10</h1>
+        <h2>Où est-il préférable de placer les balises "script" dans une page HTML pour une
+            performance optimale ? et pourquoi c’est optimal ?</h2>
+            
+        <p>Emplacement des balises "script"
+            <p>
+            Techniquement, les balises "script" et "/script" peuvent être placées n'importe où dans la page Web.
+            
+            Cependant, il est préférable de choisir un emplacement qui tient compte de deux aspects importants :
+            
+            Le code JavaScript doit être exécuté seulement lorsque toutes les balises HTML seront chargées en
+             mémoire. On dira que le DOM (Document Object Model) est entièrement chargé. Ceci asssure que le code
+              JavaScript pourra effectuer les manipulations du DOM requises, par exemple ajuster une balise par
+               programmation ou encore affecter du code à un événement rattaché à une balise.
+            Le chargement du JavaScript ne doit pas ralentir l'affichage du code HTML. Le rendu de la page
+             Web doit être aussi rapide que possible.
+            C'est pourquoi les balises "script"" doivent être placées à l'un de ces endroits :
+            
+            dans la section "head" avec l'attribut defer (seulement si le code est dans un fichier .js)
+            juste avant le "/body"
+            avant le "/body", avec association du code JavaScript à l'évènement DOMContentLoaded
+            </p>
+
+        <footer>
+            <a href="#haut_de_page">Revenir en haut de la page</a>
+        </footer>
+    </body>
+    <script>
+        // Fonction qui s'exécute lorsque la page est chargée
+        window.onload = function() {
+            alert("La page est chargée !");
+        };
+    </script>
+</html>
