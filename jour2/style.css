@@ -1,0 +1,155 @@
+@media only screen and (min-width: 1000px) {
+    body {
+      background-color: pink;
+      font-size: 10px;
+    }
+  }
+
+/*selecteur d'élement*/
+body{
+    background-color: lightblue;
+}
+h1{
+font-size: 24px;
+font-family: Arial, Helvetica, sans-serif;
+color: red;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+h2{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    
+}
+p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+a{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightpink;
+}
+/*selecteur d'ID*/
+#Job02 {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+  }
+  /*selecteur de classe*/
+  .text{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkblue;
+  }
+
+  .text2{
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkcyan;
+  }
+
+  /*selecteur de pseudo-classe*/
+  a:hover {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+}
+/*selecteur d'attributs*/
+a[href*="title"] {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+ }
+
+ /*dispositon des box*/
+ .image__box{
+   background-color:  darkblue;
+   padding: 20px;
+   margin: 20px;
+   border: 5px solid black;
+   
+
+    
+ }
+ .article__box{
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid darkblue;
+    color: white;
+ }
+
+ .flex__box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: red;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid darkred;
+    
+    
+ }
+
+ img{
+    width: 260px;
+    height: 90px;
+ }
+ button
+ {
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid black;
+    color: white;
+    border-radius: 5px;
+    color: blue;
+ }
+ button:hover
+ {
+    background-color: blue;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid darkblue;
+    color: white;
+    border-radius: 5px;
+    color: white;
+    opacity: 0.8;
+    transition: 0.3s;
+    transform: rotate(-5deg);
+ }
+
+ button:active
+ {
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+    border: 5px solid darkred;
+    color: white;
+    border-radius: 5px;
+    color: white;
+    transform: rotate(-20deg);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+ }
+
+ article::before {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid blue;
+    color: grey;
+  }
+
+  article.done::after {
+    background-color: rgb(232, 165, 232);
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid purple;
+    color: rgb(44, 2, 44);
+  }
+
+  
+  
